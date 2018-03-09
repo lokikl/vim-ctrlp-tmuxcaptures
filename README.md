@@ -8,10 +8,10 @@ Add line below into your per project vimrc.
 
 `nnoremap se :CtrlPtmuxcapturesLocate main:ui.0;app/views;erb;Started GET<cr>`
 
-main:ui.0 is the tmux pane ID
+*main:ui.0* is the tmux pane ID
 
-app/views is the common file prefix you want to search for
+*app/views* is the common file prefix you want to search for
 
-erb is the file extension you want to search for
+*erb* is the file extension you want to search for
 
-"Started GET" is the delimiter to identify a start of a block
+*Started GET* is the delimiter to identify a start of a block
